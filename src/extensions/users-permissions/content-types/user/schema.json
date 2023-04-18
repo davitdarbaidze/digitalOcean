@@ -66,6 +66,18 @@
     "phone": {
       "type": "string",
       "regex": "^\\+[1-9]{1}[0-9]{3,14}$"
+    },
+    "plan": {
+      "type": "enumeration",
+      "enum": [
+        "Basic",
+        "Standard",
+        "Premium"
+      ],
+      "default": "Basic"
+    },
+    "card": {
+      "type": "json"
     }
   }
 }
