@@ -78,6 +78,12 @@
     },
     "card": {
       "type": "json"
+    },
+    "primary": {
+      "type": "json"
+    },
+    "secondary": {
+      "type": "json"
     }
   }
 }
