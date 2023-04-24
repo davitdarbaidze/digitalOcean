@@ -84,6 +84,13 @@
     },
     "secondary": {
       "type": "json"
+    },
+    "billingDay": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
